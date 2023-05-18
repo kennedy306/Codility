@@ -4,8 +4,8 @@
 =end
 
 def reverse_array(arr)
-    # Your code here
-end
+    arr.reverse
+  end
   
 # Example usage
 input = [1, 2, 3, 4, 5]

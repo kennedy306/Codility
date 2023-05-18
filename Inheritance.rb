@@ -4,13 +4,15 @@
 =end
 
 class Animal
-    def speak
-      # Your code here
-    end
+  def speak
+    puts "The animal speaks."
+  end
 end
-  
+
 class Dog < Animal
-# Your code here
+  def speak
+    puts "Woof!"
+  end
 end
 
 # Example usage

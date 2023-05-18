@@ -6,8 +6,12 @@
 =end
 
 def select_keys(hash, keys)
-    # Your code here
-end
+    selected_hash = {}
+    keys.each do |key|
+      selected_hash[key] = hash[key] if hash.key?(key)
+    end
+    selected_hash
+  end
 
 # Example usage
 input = { a: 1, b: 2, c: 3, d: 4 }

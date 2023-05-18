@@ -3,8 +3,10 @@
     a and b as input and swaps their values.
 =end
 
-def variable_swap(a, b)
-    # Your code here
+def variable_swap(b, a)
+    temp = b
+    b = a
+    a = temp
 end
   
 # Example usage
